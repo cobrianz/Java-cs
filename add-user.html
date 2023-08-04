@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html" class="nav__logo">BRIANZ</a>
+            <ul class="nav__items">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+<!--                 <li><a href="signin.html">Signin</a></li>
+ -->                <li class="nav__profile">
+                    <div class="avatar">
+                        <img src="./images/avatar1.jpg" alt="">
+                    </div>
+                    <ul>
+                        <li><a href="dashboard.html">Dashboa rd</a></li>
+                        <li><a href="logout.html">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <button id="open__nav-btn"><img src="./images/baseline-density-medium.png" alt=""></button>
+            <button id="close__nav-btn"><img src="./images/x.png" alt=""></button>
+        </div>
+    </nav>
+
+<section class="form__section">
+    <div class="container form__section-container">
+        <h2>Add User</h2>
+        <div class="alert__message error">
+            <p>This is an error message</p>
+        </div>
+        <form action="" enctype="multipart/form-data">
+            <input type="text" placeholder="Firt Name">
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="User Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Create password">
+            <input type="password" placeholder="Confirm Password">
+            <select name="" id="">
+                <option value="0">Author</option>
+                <option value="1">Admin</option>
+            </select>
+            <div class="form__control">
+                <label for="avatar">User Avatar</label>
+                <input type="file" id="avatar">
+            </div>
+            <button type="submit" class="btn">Add User</button>
+        </form>
+    </div>
+</section>
+ <footer>
+        <div class="footer__socials">
+            <a href="" target="_blank">
+                <img src="./images/x.png" alt="">
+            </a>
+            <a href="" target="_blank">
+                <img src="./images/x.png" alt="">
+            </a>
+            <a href="" target="_blank">
+                <img src="./images/x.png" alt="">
+            </a>
+            <a href="" target="_blank">
+                <img src="./images/x.png" alt="">
+            </a>
+        </div>
+        <div class="container footer__container">
+            <article>
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="category-posts.html">Art</a></li>
+                    <li><a href="category-posts.html">Wild Life</a></li>
+                    <li><a href="category-posts.html">Musict</a></li>
+                    <li><a href="category-posts.html">Travel</a></li>
+                    <li><a href="category-posts.html">Science & Technology</a></li>
+                    <li><a href="category-posts.html">Food</a></li>
+                </ul>
+            </article>
+            <article>
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="">Online Support</a></li>
+                    <li><a href="">Call Numbers</a></li>
+                    <li><a href="">Emails</a></li>
+                    <li><a href="">Social Support</a></li>
+                    <li><a href="">Location</a></li>
+                </ul>
+            </article>
+            <article>
+                <h4>Blog</h4>
+                <ul>
+                    <li><a href="">Safety</a></li>
+                    <li><a href="">Repair</a></li>
+                    <li><a href="">Recent</a></li>
+                    <li><a href="">Popular</a></li>
+                    <li><a href="">Categories</a></li>
+                </ul>
+            </article>
+            <article>
+                <h4>Permalinks</h4>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </article>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; Brian Cheruiyot</small>
+        </div>
+    </footer>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
