@@ -24,7 +24,7 @@
                     </div>
                     <ul>
                         <li><a href="dashboard.html">Dashboa rd</a></li>
-                        <li><a href="logout.html">Logout</a></li>
+                        <li><a href="signin.html">Logout</a></li>
                     </ul>
                 </li>
             </ul>
@@ -36,21 +36,23 @@
 
 <section class="dashboard">
     <div class="container dashboard__container">
+        <button id="hide__sidebar-btn" class="sidebar__toggle"><img src="./images/chevron-right.png" style="width: 2rem; filter: invert()"></button>
+        <button id="show__sidebar-btn" class="sidebar__toggle"><img src="./images/chevron-left.png"  style="width: 2rem; filter: invert()"></button>
         <aside>
             <ul>
-                <li><a href="./add-post.html"><img src="./images/x.png" alt="">
+                <li><a href="./add-post.html"><img src="./images/article.png" alt="">
                         <h5>Add Post</h5>
                     </a></li>
-                <li><a href="./dashboard.html"><img src="./images/x.png" alt="">
+                <li><a href="./dashboard.html"><img src="./images/baseline-density-medium.png" alt="">
                         <h5>Manage Post</h5>
                     </a></li>
-                <li><a href="./manage-users.html"><img src="./images/x.png" alt="">
+                <li><a href="./manage-users.html"><img src="./images/users.png" alt="">
                         <h5>Manage User</h5>
                     </a></li>
-                <li><a href="./add-category.html"><img src="./images/x.png" alt="">
+                <li><a href="./add-category.html"><img src="./images/category.png" alt="">
                         <h5>Add Categories</h5>
                     </a></li>
-                <li><a href="./manage-categories.html"><img src="./images/baseline-density-medium.png" alt="">
+                <li><a href="./manage-categories.html" class="active"><img src="./images/bookmarks.png" alt="">
                         <h5>Manage Categories</h5>
                     </a></li>
             </ul>
@@ -68,8 +70,18 @@
                 <tbody>
                     <tr>
                         <td>Travel</td>
-                        <td><a href="edit-category.html" class="btn">Edit</a></td>
-                        <td><a href="delete-category.html" class="btn">Delete</a></td>
+                        <td><a href="edit-category.html" class="btn sm">Edit</a></td>
+                        <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
+                    </tr>
+                    <tr>
+                        <td>Wild Life</td>
+                        <td><a href="edit-category.html" class="btn sm">Edit</a></td>
+                        <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
+                    </tr>
+                    <tr>
+                        <td>Music</td>
+                        <td><a href="edit-category.html" class="btn sm">Edit</a></td>
+                        <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
                     </tr>
                 </tbody>
             </table>
